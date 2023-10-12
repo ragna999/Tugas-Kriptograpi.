@@ -58,7 +58,7 @@ def main():
         decrypted_password = decrypt(database["password"], key)
         print(f"Password terdekripsi: {decrypted_password}")
     else:
-        print("Login gagal!")
+        print("Login gagal. coba lagi")
 
 if _name_ == "_main_":
     main()
